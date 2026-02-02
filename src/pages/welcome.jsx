@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Welcome = () => {
     return(
         <div className="relative h-screen w-full md:max-w-sm md:mx-auto bg-[#F7F8F9]">
-            <div className="absolute bottom-8 left-5 right-5 space-y-5">
+            <div className="absolute bottom-12 left-5 right-5 space-y-5">
                 <div className="space-y-3">
                     <h1 className="text-3xl md:text-2xl font-semibold">Welcome to popX</h1>
                     <p className="text-xl md:text-[16px] text-gray-600 font-medium">Lorem ipsum dolor sit, amet <br />consectetur adipisicing elit.</p>

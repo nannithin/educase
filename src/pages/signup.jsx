@@ -40,7 +40,7 @@ const Signup = () => {
         <div className="relative">
           <label
           htmlFor="fullname"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all
               ${
                 focused === "fullName" || formData.fullName
                   ? "-top-2 text-xs font-medium"
@@ -57,7 +57,7 @@ const Signup = () => {
             onChange={handleChange}
             onFocus={() => setFocused("fullName")}
             onBlur={() => setFocused("")}
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
             required
           />
         </div>
@@ -65,7 +65,7 @@ const Signup = () => {
         <div className="relative">
           <label
           htmlFor="phno"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all
               ${
                 focused === "phoneNumber" || formData.phoneNumber
                   ? "-top-2 text-xs font-medium"
@@ -82,7 +82,7 @@ const Signup = () => {
             onChange={handleChange}
             onFocus={() => setFocused("phoneNumber")}
             onBlur={() => setFocused("")}
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
             required
           />
         </div>
@@ -90,7 +90,7 @@ const Signup = () => {
         <div className="relative">
           <label
           htmlFor="email"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all
               ${
                 focused === "email" || formData.email
                   ? "-top-2 text-xs font-medium"
@@ -107,7 +107,7 @@ const Signup = () => {
             onChange={handleChange}
             onFocus={() => setFocused("email")}
             onBlur={() => setFocused("")}
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
             required
           />
         </div>
@@ -115,7 +115,7 @@ const Signup = () => {
         <div className="relative">
           <label
           htmlFor="password"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all
               ${
                 focused === "password" || formData.password
                   ? "-top-2 text-xs font-medium"
@@ -133,7 +133,7 @@ const Signup = () => {
             onFocus={() => setFocused("password")}
             onBlur={() => setFocused("")}
             autoComplete="new-password"
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
             required
           />
         </div>
@@ -141,7 +141,7 @@ const Signup = () => {
         <div className="relative">
           <label
           htmlFor="comp"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all
               ${
                 focused === "companyName" || formData.companyName
                   ? "-top-2 text-xs font-medium"
@@ -159,7 +159,7 @@ const Signup = () => {
             onChange={handleChange}
             onFocus={() => setFocused("companyName")}
             onBlur={() => setFocused("")}
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
           />
         </div>
 

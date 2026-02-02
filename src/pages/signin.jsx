@@ -38,7 +38,7 @@ const Signin = () => {
         <div className="relative">
           <label
           htmlFor="email"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all duration-200 pointer-events-none
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all duration-200 pointer-events-none
               ${
                 focused === "email" || formData.email
                   ? "-top-2 text-xs font-medium"
@@ -56,7 +56,7 @@ const Signin = () => {
             onChange={handleChange}
             onFocus={() => setFocused("email")}
             onBlur={() => setFocused("")}
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
             required
           />
         </div>
@@ -64,7 +64,7 @@ const Signin = () => {
         <div className="relative">
           <label
           htmlFor="password"
-            className={`absolute left-4 px-1 bg-[#F7F8F9] text-purple-500 transition-all duration-200 pointer-events-none
+            className={`absolute left-4 px-1 bg-[#F7F8F9] text-[#6C25FF] transition-all duration-200 pointer-events-none
               ${
                 focused === "password" || formData.password
                   ? "-top-2 text-xs font-medium"
@@ -83,7 +83,7 @@ const Signin = () => {
             onFocus={() => setFocused("password")}
             onBlur={() => setFocused("")}
             autoComplete="new-password"
-            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C25FF]"
             required
           />
         </div>
