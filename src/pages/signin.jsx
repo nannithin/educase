@@ -94,7 +94,7 @@ const Signin = () => {
           className={`w-full py-3 rounded-md font-semibold text-white transition
             ${
               formData.email && formData.password
-                ? "bg-purple-600 hover:bg-purple-700"
+                ? "bg-[#6C25FF] hover:bg-purple-700"
                 : "bg-[#CBCBCB] cursor-not-allowed"
             }`}
         >

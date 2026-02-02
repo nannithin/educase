@@ -13,7 +13,7 @@ const Dashboard = () => {
                                 alt="Merry Doe"
                                 className="w-24 h-24 rounded-full object-cover"
                             />
-                            <div className="absolute bottom-0 right-0 w-6 h-6 bg-purple-600 rounded-full border-2 border-white flex items-center justify-center">
+                            <div className="absolute bottom-0 right-0 w-6 h-6 bg-[#6C25FF] rounded-full border-2 border-white flex items-center justify-center">
                                 <span className="text-white text-xs font-bold">✓</span>
                             </div>
                         </div>

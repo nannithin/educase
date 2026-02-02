@@ -11,7 +11,7 @@ const Welcome = () => {
                 <div className="grid gap-3">
                     <Link to="signup"
                         type="submit"
-                        className=" bg-purple-600 hover:bg-purple-700 text-center text-white font-semibold rounded-md transition duration-200 py-3"
+                        className=" bg-[#6C25FF] hover:bg-purple-700 text-center text-white font-semibold rounded-md transition duration-200 py-3"
                     >
                         Create Account
                     </Link>

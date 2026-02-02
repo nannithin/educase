@@ -177,7 +177,7 @@ const Signup = () => {
                   value={val}
                   checked={formData.isAgency === val}
                   onChange={handleChange}
-                  className="accent-purple-600"
+                  className="accent-[#6C25FF]"
                 />
                 <span className="text-sm text-gray-700">
                   {val.charAt(0).toUpperCase() + val.slice(1)}
@@ -189,7 +189,7 @@ const Signup = () => {
 
         <button
           type="submit"
-          className="absolute bottom-8 left-5 right-5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-md py-3 transition"
+          className="absolute bottom-8 left-5 right-5 bg-[#6C25FF] hover:bg-purple-700 text-white font-semibold rounded-md py-3 transition"
         >
           Create Account
         </button>
